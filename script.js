@@ -11,24 +11,24 @@ function abreFechaMenu() {
     if (window.getComputedStyle(menu).right == "-210px") {
         //Abrir menu
         menu.style.right = "0"
-        
+
         //Mostrar icone x
         iconeX.style.display = "inline"
-        
+
         //Esconder icone barras 
         iconeBarras.style.display = "none"
-        
+
         sombra.style.right = "0"
     } else {
         //Fechar o menu
         menu.style.right = "-210px"
-        
+
         // Esconder icone X
         iconeX.style.display = "none"
-        
+
         // Mostrar icone barras
         iconeBarras.style.display = "inline"
-        
+
         sombra.style.right = "-101vw"
     }
 }
@@ -38,7 +38,7 @@ onresize = () => {
         // Mostrar icone X
         iconeX.style.display = "inline"
     }
-    else{
+    else {
         // Esconder icone barras
         iconeBarras.style.display = "none"
     }
